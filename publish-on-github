@@ -6,6 +6,7 @@ cd $DIR
 
 ./build && \
 doctoc README.md && \
+echo "![](https://github.com/loveencounterflow/soba/raw/master/art/soba-logo.png)"|cat - README.md > /tmp/soba-README.tmp && mv /tmp/soba-README.tmp README.md && \
 # coffeedoc -o doc src && \
 git add --all && \
 git commit -m "autocommit"

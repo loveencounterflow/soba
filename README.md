@@ -1,3 +1,4 @@
+![](https://github.com/loveencounterflow/soba/raw/master/art/soba-logo.png)
 
 
 - [soba](#soba)
@@ -8,7 +9,7 @@
 soba
 ====
 
-![](https://github.com/loveencounterflow/soba/raw/master/art/soba-logo.png)
+
 
 
 socket-based communication, inter-process and client / server
