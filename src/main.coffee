@@ -1,6 +1,6 @@
 
 
 ############################################################################################################
-@SERVER 									= require 'soba-server'
-@CLIENT 									= require 'soba-client'
+@SERVER                   = require 'soba-server'
+@CLIENT                   = require 'soba-client'
 

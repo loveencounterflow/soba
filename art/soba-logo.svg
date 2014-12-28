@@ -15,7 +15,10 @@
    id="svg2"
    version="1.1"
    inkscape:version="0.48.2 r9819"
-   sodipodi:docname="soba-logo.svg">
+   sodipodi:docname="soba-logo.svg"
+   inkscape:export-filename="/Volumes/Storage/cnd/node_modules/soba/art/soba-logo.png"
+   inkscape:export-xdpi="299.88754"
+   inkscape:export-ydpi="299.88754">
   <sodipodi:namedview
      id="base"
      pagecolor="#ffffff"
@@ -24,7 +27,7 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="2.2048991"
-     inkscape:cx="103.86399"
+     inkscape:cx="68.941757"
      inkscape:cy="101.82744"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
@@ -45,7 +48,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
