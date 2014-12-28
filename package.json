@@ -1,0 +1,26 @@
+{
+  "name": "soba",
+  "version": "0.1.1",
+  "description": "socket-based communication, inter-process and client / server",
+  "main": "lib/main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/loveencounterflow/soba.git"
+  },
+  "keywords": [
+    "socket",
+    "websockets",
+    "ipc",
+    "client",
+    "server"
+  ],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/loveencounterflow/soba/issues"
+  },
+  "homepage": "https://github.com/loveencounterflow/soba"
+}
