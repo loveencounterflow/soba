@@ -22,5 +22,9 @@
   "bugs": {
     "url": "https://github.com/loveencounterflow/soba/issues"
   },
-  "homepage": "https://github.com/loveencounterflow/soba"
+  "homepage": "https://github.com/loveencounterflow/soba",
+  "dependencies": {
+    "soba-client": "^0.1.3",
+    "soba-server": "^0.1.3"
+  }
 }
