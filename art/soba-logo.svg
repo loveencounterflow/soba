@@ -18,7 +18,8 @@
    sodipodi:docname="soba-logo.svg"
    inkscape:export-filename="/Volumes/Storage/cnd/node_modules/soba/art/soba-logo.png"
    inkscape:export-xdpi="299.88754"
-   inkscape:export-ydpi="299.88754">
+   inkscape:export-ydpi="299.88754"
+   enable-background="new">
   <sodipodi:namedview
      id="base"
      pagecolor="#ffffff"
@@ -26,9 +27,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="2.2048991"
-     inkscape:cx="68.941757"
-     inkscape:cy="101.82744"
+     inkscape:zoom="2.3582939"
+     inkscape:cx="210.93816"
+     inkscape:cy="165.38941"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -39,7 +40,107 @@
      inkscape:window-maximized="1"
      inkscape:showpageshadow="false" />
   <defs
-     id="defs4" />
+     id="defs4">
+    <filter
+       id="filter3034"
+       inkscape:label="Bubbly Bumps"
+       inkscape:menu="Bumps"
+       inkscape:menu-tooltip="Flexible bubbles effect with some displacement"
+       color-interpolation-filters="sRGB">
+      <feGaussianBlur
+         id="feGaussianBlur3036"
+         result="result0"
+         in="SourceGraphic"
+         stdDeviation="0.5" />
+      <feTurbulence
+         id="feTurbulence3038"
+         baseFrequency="0.2"
+         seed="300"
+         numOctaves="10"
+         result="result1"
+         type="fractalNoise" />
+      <feGaussianBlur
+         id="feGaussianBlur3040"
+         stdDeviation="0.5"
+         result="result8" />
+      <feDisplacementMap
+         id="feDisplacementMap3042"
+         in2="result8"
+         result="result7"
+         scale="5"
+         in="result0"
+         xChannelSelector="R" />
+      <feComposite
+         id="feComposite3044"
+         in2="result1"
+         result="result2"
+         operator="in"
+         in="result7" />
+      <feComposite
+         id="feComposite3046"
+         in2="result2"
+         k3="3"
+         in="result0"
+         operator="arithmetic"
+         result="result9" />
+      <feBlend
+         id="feBlend3048"
+         in2="result2"
+         result="fbSourceGraphic"
+         mode="multiply" />
+      <feColorMatrix
+         id="feColorMatrix3050"
+         values="1 0 0 -1 0 1 0 1 -1 0 1 0 0 -1 0 -1.8 -0.5 0 5.7 -3.5 "
+         in="fbSourceGraphic"
+         result="fbSourceGraphicAlpha" />
+      <feGaussianBlur
+         id="feGaussianBlur3052"
+         stdDeviation="0.5"
+         in="fbSourceGraphicAlpha"
+         result="result0" />
+      <feSpecularLighting
+         id="feSpecularLighting3054"
+         result="result6"
+         surfaceScale="5"
+         specularExponent="3">
+        <feDistantLight
+           id="feDistantLight3056"
+           azimuth="225"
+           elevation="10" />
+      </feSpecularLighting>
+      <feComposite
+         id="feComposite3058"
+         in2="fbSourceGraphicAlpha"
+         in="result6"
+         result="result2"
+         operator="in" />
+      <feComposite
+         id="feComposite3060"
+         in2="result2"
+         in="fbSourceGraphic"
+         result="result4"
+         operator="arithmetic"
+         k2="1"
+         k3="0.7" />
+    </filter>
+    <filter
+       id="filter3882"
+       inkscape:label="Fancy blur"
+       inkscape:menu="Blurs"
+       inkscape:menu-tooltip="Smooth colorized contour which allows desaturation and hue rotation"
+       color-interpolation-filters="sRGB">
+      <feGaussianBlur
+         id="feGaussianBlur3884"
+         stdDeviation="5"
+         result="result1" />
+      <feComposite
+         id="feComposite3886"
+         in2="result1"
+         operator="arithmetic"
+         k2="2"
+         in="result1" />
+    </filter>
+  </defs>
   <metadata
      id="metadata7">
     <rdf:RDF>
@@ -321,36 +422,40 @@
          style="fill:#ffffff;fill-opacity:1;stroke:none"
          sodipodi:type="arc" />
     </g>
-    <path
-       sodipodi:type="arc"
-       style="fill:#ffffff;fill-opacity:1;stroke:#c49200;stroke-width:5.22474384;stroke-linecap:square;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
-       id="path3109"
-       sodipodi:cx="318.52094"
-       sodipodi:cy="403.11087"
-       sodipodi:rx="64.243294"
-       sodipodi:ry="83.111954"
-       d="M 382.76423,403.11087 A 64.243294,83.111954 0 1 1 254.27764,403.11087 A 64.243294,83.111954 0 1 1 382.76423,403.11087 z"
-       transform="matrix(0,0.42799487,-0.69642227,0,394.10244,884.05962)" />
-    <rect
-       style="fill:#ffffff;fill-opacity:1;stroke:none"
-       id="rect3898"
-       width="65.1418"
-       height="35.940304"
-       x="79.868576"
-       y="1034.5692" />
-    <path
-       style="fill:#ffffff;fill-opacity:1;stroke:none"
-       d="M 98.924399,989.08313 L 132.73584,987.39256 L 137.13133,994.89865 L 91.147769,998.61795 z"
-       id="rect3900"
-       inkscape:connector-curvature="0"
-       sodipodi:nodetypes="ccccc" />
-    <image
-       y="-1059.5759"
-       x="-169.3231"
-       id="image4268"
-       xlink:href="file:///QUICK/soba/art/soba-noodles.png"
-       height="96.970848"
-       width="107.48"
-       transform="scale(-1,-1)" />
+    <g
+       id="g3036"
+       transform="translate(-3,0)">
+      <path
+         transform="matrix(0,0.42799487,-0.69642227,0,394.10244,884.05962)"
+         d="M 382.76423,403.11087 C 382.76423,449.01233 354.00153,486.22282 318.52094,486.22282 C 283.04034,486.22282 254.27764,449.01233 254.27764,403.11087 C 254.27764,357.20941 283.04034,319.99892 318.52094,319.99892 C 354.00153,319.99892 382.76423,357.20941 382.76423,403.11087 z"
+         sodipodi:ry="83.111954"
+         sodipodi:rx="64.243294"
+         sodipodi:cy="403.11087"
+         sodipodi:cx="318.52094"
+         id="path3109"
+         style="fill:#ffffff;fill-opacity:1;stroke:#c49200;stroke-width:5.22474384;stroke-linecap:square;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         sodipodi:type="arc" />
+      <rect
+         y="1034.5692"
+         x="79.868576"
+         height="35.940304"
+         width="65.1418"
+         id="rect3898"
+         style="fill:#ffffff;fill-opacity:1;stroke:none" />
+      <path
+         sodipodi:nodetypes="ccccc"
+         inkscape:connector-curvature="0"
+         id="rect3900"
+         d="M 98.924399,989.08313 L 132.73584,987.39256 L 137.13133,994.89865 L 91.147769,998.61795 z"
+         style="fill:#ffffff;fill-opacity:1;stroke:none" />
+      <image
+         transform="scale(-1,-1)"
+         width="107.48"
+         height="96.970848"
+         xlink:href="file:///QUICK/soba/art/soba-noodles.png"
+         id="image4268"
+         x="-169.3231"
+         y="-1059.5759" />
+    </g>
   </g>
 </svg>
